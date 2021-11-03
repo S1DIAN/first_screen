@@ -1,0 +1,240 @@
+body {
+    background: url(../img/background.png) center / cover no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.header {
+    margin-left: 45px;
+    margin-top: 45px;
+}
+
+.header__container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    margin-left: 824px;
+}
+
+.header__a-a {
+    font-size: 18px;
+    line-height: 80%;
+    color: #EEEEEE;
+    border-bottom: 4px solid #EEEEEE;
+    padding-bottom: 10px;
+    font-family: 'worksans-bold';
+    font-weight: 700;
+    font-style: normal;
+}
+
+.header__a {
+    padding-left: 50px;
+    color: #EEEEEE;
+    font-size: 18px;
+    line-height: 80%;
+    font-family: 'worksans-regular';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header__btn {
+    width: 156px;
+    height: 53px;
+    background: #09ADBB;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.35);
+    border-radius: 30px;
+    margin-left: 50px;
+    font-size: 18px;
+    line-height: 80%;
+    color: #ffffff;
+    font-family: 'worksans-regular';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header__tools {
+    margin-left: 46px;
+}
+
+.header__tool {
+    padding-left: 45px;
+}
+
+.main {
+    margin-left: 147px;
+    padding-top: 270px;
+}
+
+.main__text {
+    width: 516px;
+    height: 221px;
+}
+
+.main__txt {
+    width: 516px;
+    height: 180px;
+    font-size: 60px;
+    line-height: 100%;
+    color: #ffffff;
+    margin: 0;
+}
+
+.main__subtxt {
+    width: 362px;
+    height: 21px;
+    font-size: 26px;
+    line-height: 80%;
+    color: #ffffff;
+    margin: 0;
+    padding-top: 20px;
+    font-family: 'worksans-regular';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main__container {
+    width: 1137px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-top: 60px;
+}
+
+.main__container-filters {
+    display: flex;
+    background: #ffffff;
+    border-radius: 3px;
+    width: 1126px;
+    height: 170px;
+    align-items: center;
+}
+
+.main__container-icons {
+    display: flex;
+}
+
+.main__container-text {
+    padding-left: 49px;
+}
+
+.main__container-text {
+    height: 94px;
+    width: 316px;
+}
+
+.main__container-txt {
+    font-size: 20px;
+    line-height: 140.5%;
+    color: #142D3F;
+    width: 196px;
+    margin: 0;
+}
+
+.main__container-subtxt {
+    margin: 0;
+    font-size: 12px;
+    line-height: 150%;
+    padding-top: 10px;
+    font-family: 'worksans-regular';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main__container-icons {
+    align-items: center;
+    text-align: center;
+    padding-left: 68px;
+    font-family: 'worksans-regular';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main__container-icon:not(:first-child) {
+    padding-left: 115px;
+}
+
+.main__container-icon-txt {
+    font-size: 16px;
+    line-height: 80%;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #142D3F;
+}
+
+.main__map {
+    text-align: center;
+    width: 151px;
+    height: 190px;
+    background: #4777A7;
+}
+
+.main__map-icon {
+    padding-top: 40px;
+}
+
+.main__map-txt {
+    font-size: 16px;
+    line-height: 80%;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    font-family: 'worksans-regular';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main__map-btn {
+    background: none;
+    font-size: 10px;
+    line-height: 80%;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-top: 15px;
+    color: #FFFFFF;
+    font-family: 'worksans-semibold';
+    font-weight: 600;
+    font-style: normal;
+}
+
+.footer {
+    margin-left: 920px;
+    margin-top: 80px;
+    display: flex;
+}
+
+.footer__scroll {
+    text-align: center;
+}
+
+.footer__scroll-txt {
+    font-size: 10px;
+    line-height: 80%;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'worksans-semibold';
+    font-weight: 600;
+    font-style: normal;
+}
+
+.footer__arrows {
+    margin-left: 680px;
+}

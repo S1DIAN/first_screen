@@ -1,0 +1,13 @@
+@font-face {
+    src: url(../fonts/Trade\ Gothic\ LT\ Bold\ Condensed\ No.\ 20.ttf);
+    font-family: 'TradeGothic LT CondEighteen';
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    src: url(../fonts/HelveticaNeueCyr-Medium.ttf);
+    font-family: 'Helvetica Neue';
+    font-weight: 500;
+    font-style: normal;
+}

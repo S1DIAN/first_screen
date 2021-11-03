@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.header{
+    background: url(../img/bg.png) center / cover no-repeat;
+    height: 100vh;
+    
+}
+.header__nav{
+    display: flex;
+}
+.logo{
+    padding: 52px 0 0 54px;
+    position: relative
+}
+.header__container{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+
+}
+.header__menu{
+    padding: 0 0 0 48px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+}
+.header__menu-item{
+    display: inline-block;
+    flex-direction: row;
+    padding: 70px 20px 0 0;
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1C1E52;
+}
+.registr{
+    padding-top: 75px;
+    margin-left: 1600px;
+    position: absolute;
+    display: flex;
+    list-style-type: none;
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #F9FAFF;
+}
+.registr__menu::not(:first-child){
+    margin-left: 32px;
+    
+}
+.registr__menu{
+    padding-left: 32px;
+}
+.header__first{
+    position: absolute;
+    margin: 232px 0 0 56px;
+}
+.header-first__main{
+    display: flex;
+    
+}
+.header-first__main-title{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 68px;
+    color: #1C1E52;
+}
+.header-first__title{
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+    color: #FD8061;
+    position: absolute;
+    padding: 100px 0 0 320px;
+}
+.header-first__btn{
+    padding-top: 24px;
+}
+.header-first__btn-play{
+    background: #FD8061;
+    box-shadow: 0px 3px 6px rgba(110, 116, 134, 0.24);
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    padding: 12px 28px;
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #F9FAFF;
+}
+.header-first__advantages{
+    padding-top: 48px;
+}
+.header-first__advantages-item{
+    padding-bottom: 8px;
+}
+.span__advantages{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1C1E52;
+}

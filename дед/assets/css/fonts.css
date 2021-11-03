@@ -1,0 +1,12 @@
+@font-face {
+    src: url(../fonts/bodoni72c-bold.otf) format("opentype");
+    font-family: 'Bodoni';
+    font-weight: 700;
+    }
+
+@font-face {
+    src: url(../fonts/FuturaMediumC.ttf);
+    font-family: 'Futura';
+    font-weight: 600;
+    }
+    

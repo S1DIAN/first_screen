@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Geometria' ,sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    position: fixed;
+}
+
+
+.logo{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.header__menu{
+    font-family:'Geometria' ,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #69717F;
+    list-style-type: none;
+    margin-left: 74px;
+    margin-top: 130px;
+    padding: 0;
+}
+
+.xxx {
+    text-decoration: none;
+    color: #69717F;
+}
+
+.header__menu-item:not(:first-child){
+    margin-top: 50px;
+    
+}
+
+.first{
+    background: url(../img/bg.png) center / cover no-repeat;
+    height: 100vh;
+    z-index: 0;
+}
+
+.headphones{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: 1;
+}
+
+.zoom {
+    position: absolute;
+    left: 57px;
+    bottom: 52px;
+}
+
+.footer {
+    position: fixed;
+    right: 0; 
+    bottom: 0; 
+    padding-left: 270px; 
+    width: 100%; 
+}
+
+.footer__menu {
+    display: flex;
+    align-items: flex-end; 
+}
+
+.footer__menu-item {
+    font-family:'Geometria' ,sans-serif;
+    font-weight: normal;
+    line-height: 26px;
+    font-size: 14px;
+    color: #5F6776;
+    margin-left: 34px;
+    list-style: none;
+}
+
+.region {
+    position: fixed;
+    right: 34px; 
+    bottom: 18px; 
+}
+
+.usa {
+    position: absolute;
+    right: 120px;
+}
+
+.region__usa {
+    color: #5F6776;
+    list-style: none;
+}
+
+.Poragraf {
+    position: absolute;
+    z-index: 3;
+    left: 440px;
+    top: 300px;
+}
+
+.text {
+    font-family:'Geometria' ,sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #25282D;
+}
+
+.btn {
+    width: 429px;
+    color: #fff;
+    font-family:'Geometria' ,sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    background: #102141;
+    outline: none;
+    padding: 15px 25px ;
+    border-radius: 100px;
+    margin-top: 30px;
+    opacity: 26%;
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+}
+
+.btn__text {
+    margin-left: 173px;
+}
